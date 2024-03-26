@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@layer base {
+  :root {
+    --text: #171B16;
+    --background: #FCFDFC;
+    --primary: #6FB266;
+    --secondary: #DCECDA;
+    --accent: #5DA654;
+  }
+  .dark {
+    --text: #F6FAF5;
+    --background: #191D19;
+    --primary: #56994D;
+    --secondary: #152513;
+    --accent: #62AB59;
+  }
+
+  .base-background {
+    background-color: var(--secondary);
+  }
+
+  .font-roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+  }
+}
+
+#app {
+  @apply base-background font-roboto-mono min-h-screen flex justify-center px-[1.5rem] md:px-[4rem] lg:px-[11.75rem] dark:dark;
+}
