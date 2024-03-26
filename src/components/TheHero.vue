@@ -1,10 +1,10 @@
 <template>
   <div class="flex-grow flex min-h-screen items-center">
-    <div class="w-full text-center px-[6.25rem] py-[3.1875rem] bg-background rounded-[3.125rem] dark:dark">
+    <div class="w-full text-center hero-card-padding bg-background hero-card-rounded dark:dark">
       <span
         v-for="n in 3"
         :key="n"
-        :class="[ 'block', 'text-[120px]', 'font-bold', customColor(n), 'dark:dark' ]">
+        :class="[ 'block', 'hero-text', 'font-bold', customColor(n), 'dark:dark' ]">
         {{ text }}
       </span>
     </div>
@@ -22,3 +22,17 @@ const customColor = computed(() => {
   return n => (n === 2 ? 'text-secondary' : 'text-primary');
 });
 </script>
+
+<style scoped>
+.hero-text {
+  @apply leading-tight text-[10vw] lg:text-[10vw] xl:text-[8vw];
+}
+
+.hero-card-padding {
+  @apply px-[2.125rem] py-[1.5rem] lg:px-[4.4375rem] lg:py-[3.1875rem] xl:px-[6.25rem] xl:py-[3.1875rem];
+}
+
+.hero-card-rounded {
+  @apply rounded-[1.875rem] md:rounded-[3.125rem];
+}
+</style>

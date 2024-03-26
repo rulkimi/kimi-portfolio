@@ -30,5 +30,7 @@
 }
 
 #app {
-  @apply base-background font-roboto-mono min-h-screen flex justify-center px-[1.5rem] md:px-[4rem] lg:px-[11.75rem] dark:dark;
+  @apply base-background font-roboto-mono min-h-screen flex flex-col justify-center px-[1.5rem] sm:px-[2.5rem] lg:px-[4rem] xl:px-[11.75rem] dark:dark;
 }
+
+
