@@ -1,10 +1,10 @@
 <template>
   <div class="flex-grow flex min-h-screen items-center">
-    <div class="w-full text-center hero-card-padding bg-background hero-card-rounded dark:dark">
+    <div class="w-full text-center hero-card-padding bg-background hero-card-rounded">
       <span
         v-for="n in 3"
         :key="n"
-        :class="[ 'block', 'hero-text', 'font-bold', customColor(n), 'dark:dark' ]">
+        :class="[ 'block', 'hero-text', 'font-bold', customColor(n) ]">
         {{ text }}
       </span>
     </div>
