@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row">
+  <div class="flex flex-col min-h-screen md:flex-row">
     <div class="flex-1">
       <div class="md:m-10 flex-1">
         <div class="text-[4rem] md:text-[5rem] leading-none mb-8 font-bold text-accent">ABOUT ME</div>

@@ -38,7 +38,7 @@
 }
 
 #app {
-  @apply bg-secondary font-roboto-mono min-h-screen flex flex-col justify-center px-[1.5rem] sm:px-[2.5rem] lg:px-[4rem] xl:px-[11.75rem] dark:dark;
+  @apply bg-secondary font-roboto-mono min-h-screen flex justify-center px-[1.5rem] sm:px-[2.5rem] lg:px-[4rem] xl:px-[11.75rem] dark:dark;
 }
 
 
