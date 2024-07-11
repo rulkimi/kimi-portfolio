@@ -11,6 +11,9 @@
   <section ref="about">
     <AboutMe />
   </section>
+  <section ref="projects">
+    <TheProjects />
+  </section>
 </template>
 
 <script setup>
@@ -18,10 +21,12 @@ import { ref, provide, onMounted } from 'vue';
 import TheHero from './components/TheHero.vue';
 import TheNavbar from './components/TheNavbar.vue';
 import AboutMe from './components/AboutMe.vue';
+import TheProjects from './components/TheProjects.vue';
 
 const hero = ref(null);
 const about = ref(null);
-const refs = { hero, about };
+const projects = ref(null);
+const refs = { hero, about, projects };
 
 provide('sectionRefs', refs);
 

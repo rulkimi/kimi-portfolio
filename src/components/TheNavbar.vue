@@ -2,7 +2,7 @@
   <nav ref="navbar" class="fixed bg-secondary/[0.8] pb-2 w-full z-20 top-0 start-0">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center space-x-5 rtl:space-x-reverse">
-        <img src="../assets/kimi.svg" width="30" />
+        <img src="/kimi.svg" width="30" />
         <span class="self-center text-3xl text-text font-semibold whitespace-nowrap">Kimi</span>
       </a>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
@@ -12,7 +12,7 @@
               <a
                 href="#"
                 class="block py-2 px-3 text-[1.44rem] text-text font-bold hover:text-accent md:p-0"
-                @click="scroll(menu.ref)"
+                @click.prevent="scroll(menu.ref)"
               >
                 {{ menu.name }}
               </a>
