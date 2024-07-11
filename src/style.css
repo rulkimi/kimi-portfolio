@@ -6,31 +6,39 @@
 
 @layer base {
   :root {
-    --text: #171B16;
-    --background: #FCFDFC;
-    --primary: #6FB266;
-    --secondary: #DCECDA;
-    --accent: #5DA654;
+    --text: 23, 27, 22;
+    --background: 252, 253, 252;
+    --primary: 111, 178, 102;
+    --secondary: 220, 236, 218;
+    --accent: 93, 166, 84;
   }
+
   .dark {
-    --text: #F6FAF5;
-    --background: #191D19;
-    --primary: #56994D;
-    --secondary: #152513;
-    --accent: #62AB59;
-  }
-
-  .base-background {
-    background-color: var(--secondary);
-  }
-
-  .font-roboto-mono {
-    font-family: 'Roboto Mono', monospace;
+    --text: 246, 250, 245;
+    --background: 25, 29, 25;
+    --primary: 86, 153, 77;
+    --secondary: 21, 37, 19;
+    --accent: 98, 171, 89;
   }
 }
 
+@layer components {
+  h1 { @apply text-[2.5rem] }
+  h2 { @apply text-[2rem] }
+  h3 { @apply text-[1.75rem] }
+  h4 { @apply text-[1.5rem] }
+  h5 { @apply text-[1.25] }
+  h6 { @apply text-[1rem] }
+  p { @apply text-base }
+  small { @apply text-[0.875rem] }
+}
+
+.font-roboto-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
 #app {
-  @apply base-background font-roboto-mono min-h-screen flex flex-col justify-center px-[1.5rem] sm:px-[2.5rem] lg:px-[4rem] xl:px-[11.75rem] dark:dark;
+  @apply bg-secondary font-roboto-mono min-h-screen flex flex-col justify-center px-[1.5rem] sm:px-[2.5rem] lg:px-[4rem] xl:px-[11.75rem] dark:dark;
 }
 
 

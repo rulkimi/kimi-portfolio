@@ -6,10 +6,12 @@
     style="writing-mode: vertical-lr;">
     Scroll here -->
   </div>
+  <AboutMe />
 </template>
 
 <script setup>
 import TheHero from './components/TheHero.vue';
 import TheNavbar from './components/TheNavbar.vue';
+import AboutMe from './components/AboutMe.vue';
 </script>
 

@@ -19,7 +19,7 @@ const props = defineProps({
 });
 
 const customColor = computed(() => {
-  return n => (n === 2 ? 'text-secondary' : 'text-primary');
+  return n => (n === 2 ? 'text-secondary' : 'text-accent');
 });
 </script>
 

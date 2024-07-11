@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed w-full z-20 top-0 start-0">
+  <nav class="fixed bg-secondary/[0.8] pb-2 w-full z-20 top-0 start-0">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center space-x-5 rtl:space-x-reverse">
         <img src="../assets/kimi.svg" width="30" />
