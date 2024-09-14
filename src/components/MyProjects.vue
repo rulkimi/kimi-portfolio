@@ -1,11 +1,15 @@
 <script setup>
 import { HoverCard } from '@/components/templates';
+
+import kiminotesImage from '@/assets/kiminotes-project.png';
+import recipeGeneratorImage from '@/assets/recipe-generator-project.png';
 </script>
 
 <template>
   <div class="flex flex-col gap-4">
     <HoverCard
-      date="2024 &ndash; PRESENT"
+      :image-path="kiminotesImage"
+      image-alt="azrul hakimi's personal documentation website, kiminotes, preview"
       title="kiminotes"
       company="Personal Project"
       link="https://rulkimi.github.io/kiminotes/"
@@ -15,7 +19,8 @@ import { HoverCard } from '@/components/templates';
       integrating best practices from a year of industry experience to ensure high-quality, robust code and enhanced site functionality for effective learning and retrieval.
     </HoverCard>
     <HoverCard
-      date="2022 &ndash; 2023"
+      :image-path="recipeGeneratorImage"
+      image-alt="recipe generator image preview"
       title="Recipe Generator"
       company="Personal Project"
       link="https://rulkimi.github.io/recipe-generator/"
