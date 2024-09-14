@@ -3,7 +3,7 @@ import { HoverCard } from '@/components/templates';
 </script>
 
 <template>
-  <div class="relative -inset-x-6 flex flex-col gap-4">
+  <div class="flex flex-col gap-4">
     <HoverCard
       date="2024 &ndash; PRESENT"
       title="Software Engineer"
