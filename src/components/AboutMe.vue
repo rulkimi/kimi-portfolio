@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="w-full h-full">
+  <div class="w-full">
     <p>
       My journey began in Mechanical Engineering, but I quickly found my passion in coding.
       The immediate results from working with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> drew me in,

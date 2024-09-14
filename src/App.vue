@@ -1,9 +1,14 @@
 <script setup>
 import BaseLayout from '@/layout/BaseLayout.vue';
+import {
+  AboutMe,
+  WorkExperience
+} from '@/components'
 </script>
 
 <template>
   <BaseLayout>
-    <router-view></router-view>
+    <AboutMe />
+    <WorkExperience />
   </BaseLayout>
 </template>
