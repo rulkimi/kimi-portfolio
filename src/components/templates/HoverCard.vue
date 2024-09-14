@@ -26,8 +26,9 @@ defineProps({
       <div class="col-span-3 text-xs font-medium text-nowrap my-1">{{ date }}</div>
 
       <div class="col-span-9">
-        <div class="text-slate-200 group-hover:text-teal-300 mb-2">
+        <div class="text-slate-200 group-hover:text-teal-300 mb-2 flex items-center gap-2 group-hover:gap-4 transition-all duration-300">
           <span>{{ title }} • {{ company }}</span>
+          <font-awesome-icon :icon="['fas', 'arrow-right']" />
         </div>
         <slot></slot>
         <div class="flex gap-1 mt-4">

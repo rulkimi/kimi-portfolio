@@ -44,11 +44,16 @@ const setActiveNav = nav => {
           </div>
         </div>
       </div>
-      <div class="flex gap-4">
-        <div>Logo 1</div>
-        <div>Logo 2</div>
-        <div>Logo 3</div>
-        <div>Logo 4</div>
+      <div class="flex gap-6 text-2xl">
+        <a class="hover:scale-110" href="https://github.com/rulkimi" target="_blank">
+          <font-awesome-icon :icon="['fab', 'github']" />
+        </a>
+        <a class="hover:scale-110" href="https://www.linkedin.com/in/azrul-hakimi-75a32420a/" target="_blank">
+          <font-awesome-icon :icon="['fab', 'linkedin']" />
+        </a>
+        <a class="hover:scale-110" href="mailto:azrulkimi00@gmail.com">
+          <font-awesome-icon :icon="['fas', 'envelope']" />
+        </a>
       </div>
     </div>
   </div>
