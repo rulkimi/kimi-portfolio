@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-slate-950 m-0 min-w-[320px] min-h-screen text-slate-500 text-sm md:text-base;
+    @apply bg-slate-900 m-0 min-w-[320px] min-h-screen text-slate-500 text-sm md:text-base;
   }
 
   p {

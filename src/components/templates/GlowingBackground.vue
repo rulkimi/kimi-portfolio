@@ -53,25 +53,10 @@ const glowStyle = computed(() => ({
       class="absolute rounded-full opacity-0 transition-opacity duration-500 group-hover/glowing:opacity-100"
       :style="glowStyle"
     ></div>
-    <div class="absolute bg-slate-900 bg-opacity-90 w-screen overflow-auto custom-scroll">
+    <div class="absolute bg-slate-900 bg-opacity-90 w-screen">
       <slot></slot>
     </div>
   </div>
 </template>
 
-<style scoped>
-.custom-scroll::-webkit-scrollbar {
-  width: 6px;
-  background-color: transparent;
-}
-
-.custom-scroll::-webkit-scrollbar-thumb {
-  background-color: #ccc;
-  border-radius: 4px;
-}
-
-.custom-scroll::-webkit-scrollbar-thumb:hover {
-  background-color: #aaa;
-}
-</style>
 
