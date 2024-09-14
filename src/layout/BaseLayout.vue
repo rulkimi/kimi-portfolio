@@ -1,6 +1,6 @@
 <script setup>
 import { NavBar } from '@/components';
-import GlowingBackground from '../components/templates/GlowingBackground.vue';
+import { GlowingBackground } from '@/components/templates';
 </script>
 
 <template>

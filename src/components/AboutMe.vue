@@ -12,7 +12,7 @@
     </p>
  
     <p>
-      Over the last year, I’ve built <a href="https://rulkimi.github.io/kiminotes/" target="_blank" rel="noopener noreferrer">Kimi Notes</a>,
+      Over the last year, I’ve built <a href="https://rulkimi.github.io/kiminotes/" target="_blank" rel="noopener noreferrer">kiminotes</a>,
       a personal knowledge repository documenting my learning journey.
       Alongside that, I developed various projects, including a <a href="https://rulkimi.github.io/recipe-generator/" target="_blank" rel="noopener noreferrer">recipe generation app
       </a> using <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue.js</a> and <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>. I always prioritize clean,

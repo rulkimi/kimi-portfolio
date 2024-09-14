@@ -37,6 +37,7 @@ const setActiveNav = nav => {
             ></div>
             <span
               class="text-xs"
+              :class="{ 'text-slate-200' : activeNav === navigation.name }"
             >
               {{ navigation.name }}
             </span>
