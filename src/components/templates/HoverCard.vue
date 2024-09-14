@@ -15,12 +15,20 @@ defineProps({
   tags: {
     type: Array,
     required: true
+  },
+  link: {
+    type: String,
+    required: true
   }
-})
+});
+
+const goToLink = link => {
+  window.open(link, '_blank');
+}
 </script>
 
 <template>
-  <div class="-mx-4 p-4 group cursor-pointer rounded-md hover:bg-slate-800/50 hover:bg-clip-padding hover:backdrop-filter hover:backdrop-blur-sm hover:bg-opacity-10 transition duration-200 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg">
+  <div @click="goToLink(link)" class="-mx-4 p-4 group cursor-pointer rounded-md hover:bg-slate-800/50 hover:bg-clip-padding hover:backdrop-filter hover:backdrop-blur-sm hover:bg-opacity-10 transition duration-200 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg">
     <div class="grid grid-cols-12">
       
       <div class="col-span-3 text-xs font-medium text-nowrap my-1">{{ date }}</div>

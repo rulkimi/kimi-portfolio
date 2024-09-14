@@ -8,6 +8,7 @@ import { HoverCard } from '@/components/templates';
       date="2024 &ndash; PRESENT"
       title="Software Engineer"
       company="Mesiniaga Digital Sdn. Bhd."
+      link="https://mesiniaga.com.my/"
       :tags="['Vue.Js', 'Vite', 'Figma', 'GenAI']"
     >
       Refined and built Mesiniaga’s first AI-integrated website, incorporating chatbots, translators, and analysis tools,
@@ -17,6 +18,7 @@ import { HoverCard } from '@/components/templates';
       date="2022 &ndash; 2023"
       title="Software Trainee"
       company="Knex Inc."
+      link="https://www.linkedin.com/company/knex-inc./about/"
       :tags="['Dataplicity', 'Ubuntu']"
     >
       Monitored the company's IoT devices across 6 regions in Brazil, executed 10+ code modifications for tasks like storage optimization and error checks,

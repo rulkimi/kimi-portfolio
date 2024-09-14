@@ -8,6 +8,7 @@ import { HoverCard } from '@/components/templates';
       date="2024 &ndash; PRESENT"
       title="kiminotes"
       company="Personal Project"
+      link="https://rulkimi.github.io/kiminotes/"
       :tags="['Vue.Js', 'Vite', 'Tailwind CSS']"
     >
       Developed a personal coding notes website featuring interactive coding challenges and examples for efficient reference and hands-on review,
@@ -17,7 +18,8 @@ import { HoverCard } from '@/components/templates';
       date="2022 &ndash; 2023"
       title="Recipe Generator"
       company="Personal Project"
-      :tags="['shadcn-vue', 'Gemini AI', 'FastAPI', 'Render']"
+      link="https://rulkimi.github.io/recipe-generator/"
+      :tags="['Shadcn-Vue', 'Gemini AI', 'FastAPI', 'Render']"
     >
       Built a recipe generator web app using Vite, Vue.js, Tailwind CSS, Python FastAPI, and Gemini AI. Added search options (by dish name, ingredients, or images)
       and a recipe saving feature. Developed and documented APIs for search and recipe generation, supporting custom instructions and dietary needs.

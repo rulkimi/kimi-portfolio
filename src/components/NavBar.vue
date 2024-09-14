@@ -36,7 +36,7 @@ const setActiveNav = nav => {
               :class="{ '!w-16 !bg-slate-200' : activeNav === navigation.name }"
             ></div>
             <span
-              class="text-xs"
+              class="text-xs group-hover:text-slate-200"
               :class="{ 'text-slate-200' : activeNav === navigation.name }"
             >
               {{ navigation.name }}
