@@ -32,8 +32,8 @@ const setActiveNav = nav => {
             @click="setActiveNav(navigation.name)"
           >
             <div
-              class="h-px w-8 bg-slate-200 group-hover:w-16 transition-all duration-200"
-              :class="{ '!w-16' : activeNav === navigation.name }"
+              class="h-px w-8 bg-slate-500 group-hover:w-16 group-hover:bg-slate-200 transition-all duration-200"
+              :class="{ '!w-16 !bg-slate-200' : activeNav === navigation.name }"
             ></div>
             <span
               class="text-xs"
