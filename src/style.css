@@ -3,16 +3,19 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --text: 241, 235, 228; 
-    --background: 31, 41, 55;
-  }  
-
   body {
-    @apply bg-background m-0 min-w-[320px] min-h-screen text-text text-sm md:text-base;
+    @apply bg-slate-950 m-0 min-w-[320px] min-h-screen text-slate-400 text-sm md:text-base;
   }
 
   p {
     @apply mb-4;
+  }
+
+  strong {
+    @apply text-slate-200;
+  }
+
+  a, strong {
+    @apply cursor-pointer font-medium text-slate-200 hover:text-teal-300 transition-all duration-300;
   }
 }

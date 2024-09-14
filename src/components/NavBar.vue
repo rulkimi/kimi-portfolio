@@ -20,8 +20,8 @@ const setActiveNav = nav => {
     <div class="h-full flex flex-col justify-between">
       <div class="flex flex-col gap-20">
         <div class="flex flex-col gap-2">
-          <h1 class="text-4xl sm:text-5xl font-bold">Azrul Hakimi</h1>
-          <h2 class="text-lg sm:text-xl font-medium">Junior Front-end Developer</h2>
+          <h1 class="text-4xl sm:text-5xl font-bold text-slate-200">Azrul Hakimi</h1>
+          <h2 class="text-lg sm:text-xl font-medium text-slate-200">Junior Front-end Developer</h2>
           <div class="leading-normal max-w-xs">I build pixel-perfect, engaging, and accessible digital experiences.</div>
         </div>
         <div class="flex flex-col gap-4">
@@ -32,7 +32,7 @@ const setActiveNav = nav => {
             @click="setActiveNav(navigation.name)"
           >
             <div
-              class="h-px w-8 bg-text group-hover:w-16 transition-all duration-200"
+              class="h-px w-8 bg-slate-200 group-hover:w-16 transition-all duration-200"
               :class="{ '!w-16' : activeNav === navigation.name }"
             ></div>
             <span
