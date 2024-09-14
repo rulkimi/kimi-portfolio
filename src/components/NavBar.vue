@@ -16,7 +16,7 @@ const setActiveNav = nav => {
 </script>
 
 <template>
-  <div class="w-full h-full">
+  <div class="w-full h-full py-24 sticky top-0">
     <div class="h-full flex flex-col justify-between">
       <div class="flex flex-col gap-20">
         <div class="flex flex-col gap-2">
