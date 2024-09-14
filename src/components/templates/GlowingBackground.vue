@@ -44,7 +44,7 @@ const glowStyle = computed(() => ({
 
 <template>
   <div
-    class="relative bg-slate-900 rounded-2xl overflow-hidden group/glowing"
+    class="relative bg-slate-900 overflow-hidden group/glowing"
     :class="size"
     @mousemove="handleMouseMove"
     @mouseleave="handleMouseLeave"
@@ -53,7 +53,7 @@ const glowStyle = computed(() => ({
       class="absolute rounded-full opacity-0 transition-opacity duration-500 group-hover/glowing:opacity-100"
       :style="glowStyle"
     ></div>
-    <div class="absolute inset-1 rounded-xl bg-slate-900 bg-opacity-90">
+    <div class="absolute bg-slate-900 bg-opacity-90">
       <slot></slot>
     </div>
   </div>

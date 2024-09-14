@@ -16,8 +16,9 @@ import { HoverCard } from '@/components/templates';
       </HoverCard>
       <HoverCard
         date="2022 &ndash; 2023"
-        title="Software Trainer"
+        title="Software Trainee"
         company="Knex Inc."
+        :tags="['Dataplicity', 'Ubuntu']"
       >
         Monitored the company's IoT devices across 6 regions in Brazil, executed 10+ code modifications for tasks like storage optimization and error checks,
         and performed initial debugging on 5+ software issues, improving functionality and user experience.
