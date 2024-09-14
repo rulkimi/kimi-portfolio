@@ -8,11 +8,11 @@ const props = defineProps({
   },
   size: {
     type: String,
-    default: 'w-80 h-36'
+    default: 'w-auto h-screen'
   },
   circleSize: {
     type: String,
-    default: '700px'
+    default: '1280px'
   }
 });
 
@@ -44,16 +44,16 @@ const glowStyle = computed(() => ({
 
 <template>
   <div
-    class="relative bg-gray-800 rounded-2xl overflow-hidden group"
+    class="relative bg-gray-800 rounded-2xl overflow-hidden group/glowing"
     :class="size"
     @mousemove="handleMouseMove"
     @mouseleave="handleMouseLeave"
   >
     <div
-      class="absolute rounded-full opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+      class="absolute rounded-full opacity-0 transition-opacity duration-500 group-hover/glowing:opacity-100"
       :style="glowStyle"
     ></div>
-    <div class="absolute inset-[2px] rounded-2xl bg-gray-800 bg-opacity-90 p-4">
+    <div class="absolute inset-1 rounded-xl bg-gray-800 bg-opacity-90">
       <slot></slot>
     </div>
   </div>
