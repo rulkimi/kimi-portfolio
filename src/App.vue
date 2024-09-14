@@ -2,7 +2,8 @@
 import BaseLayout from '@/layout/BaseLayout.vue';
 import {
   AboutMe,
-  WorkExperience
+  WorkExperience,
+  MyProjects,
 } from '@/components'
 </script>
 
@@ -10,5 +11,6 @@ import {
   <BaseLayout>
     <AboutMe />
     <WorkExperience />
+    <MyProjects />
   </BaseLayout>
 </template>
