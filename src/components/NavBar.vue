@@ -33,7 +33,7 @@ const setActiveNav = nav => {
           >
             <div
               class="h-px w-8 bg-text group-hover:w-16 transition-all duration-200"
-              :class="{ 'w-16' : activeNav === navigation.name }"
+              :class="{ '!w-16' : activeNav === navigation.name }"
             ></div>
             <span
               class="text-xs"
