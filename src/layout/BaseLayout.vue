@@ -17,15 +17,15 @@ import { GlowingBackground } from '@/components/templates';
 <style scoped>
 .custom-scroll::-webkit-scrollbar {
   width: 6px;
-  background-color: #1f2937; /* This matches bg-slate-900 */
+  background-color: #1f2937;
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
-  background-color: #4b5563; /* Lighter shade for the thumb */
+  background-color: #4b5563;
   border-radius: 4px;
 }
 
 .custom-scroll::-webkit-scrollbar-thumb:hover {
-  background-color: #6b7280; /* Slightly lighter shade on hover */
+  background-color: #6b7280; 
 }
 </style>
