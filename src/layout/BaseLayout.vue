@@ -4,7 +4,7 @@ import NavBar from '@/components/NavBar.vue';
 
 <template>
   <div class="max-w-[1280px] mx-auto h-screen">
-    <div class="flex gap-4 p-4 w-full h-full">
+    <div class="flex gap-4 p-24 w-full h-full">
       <NavBar />
       <slot></slot>
     </div>
