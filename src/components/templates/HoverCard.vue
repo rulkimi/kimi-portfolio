@@ -48,11 +48,11 @@ const goToLink = link => {
         <div class="text-sm">
           <slot></slot>
         </div>
-        <div class="flex gap-1 mt-4">
+        <div class="flex flex-wrap gap-1 mt-4">
           <div
             v-for="tag in tags"
             :key="tag"
-            class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+            class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 text-nowrap"
           >
             {{ tag }}
           </div>

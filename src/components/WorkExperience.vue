@@ -9,7 +9,7 @@ import { HoverCard } from '@/components/templates';
       title="Software Engineer"
       company="Mesiniaga Digital Sdn. Bhd."
       link="https://mesiniaga.com.my/"
-      :tags="['Vue.Js', 'Vite', 'Figma', 'GenAI']"
+      :tags="['Vue.js', 'Vite', 'Figma', 'Tailwind CSS', 'Vue Tauri', 'GenAI', 'FastAPI', 'Axios', 'Pinia']"
     >
       Refined and built Mesiniaga’s first AI-integrated website, incorporating chatbots, translators, and analysis tools,
       while designing the UI and API integration for admin pages to manage users, prompt templates, and message logs with a simple CRUD flow.

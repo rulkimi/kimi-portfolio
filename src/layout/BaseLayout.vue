@@ -1,5 +1,5 @@
 <script setup>
-import { AppHeader } from '@/components';
+import { AppHeader, AppFooter } from '@/components';
 import { GlowingBackground } from '@/components/templates';
 </script>
 
@@ -9,6 +9,7 @@ import { GlowingBackground } from '@/components/templates';
       <AppHeader class="w-1/2"/>
       <div class="w-1/2 flex flex-col gap-24 py-24">
         <slot></slot>
+        <AppFooter />
       </div>
     </div>
   </GlowingBackground>
