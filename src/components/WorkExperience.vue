@@ -3,7 +3,7 @@ import { HoverCard } from '@/components/templates';
 </script>
 
 <template>
-  <div class="flex flex-col gap-4">
+  <section id="experience" class="flex flex-col gap-4">
     <HoverCard
       date="SEP 2024 &ndash; PRESENT"
       title="Software Engineer"
@@ -34,5 +34,5 @@ import { HoverCard } from '@/components/templates';
         <font-awesome-icon :icon="['fas', 'arrow-right']" />
       </a>
     </div>
-  </div>
+  </section>
 </template>

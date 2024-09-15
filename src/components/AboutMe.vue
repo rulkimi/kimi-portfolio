@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section id="about" class="scroll-mt-24">
     <p>
       My journey began in Mechanical Engineering, but I quickly found my passion in coding.
       The immediate results from working with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> drew me in,
@@ -16,5 +16,5 @@
     </p> 
 
     <p>When I’m not coding, you can usually find me hiking, reading, or exploring new technologies to expand my skills even further.</p>
-  </div>
+  </section>
 </template>

@@ -8,7 +8,7 @@ import instagramNonfollowersTrackerImage from '@/assets/instagram-nonfollowers-p
 </script>
 
 <template>
-  <div class="flex flex-col gap-4">
+  <section id="projects" class="flex flex-col gap-4">
     <HoverCard
       :image-path="kiminotesImage"
       image-alt="azrul hakimi's personal documentation website, kiminotes, preview"
@@ -60,5 +60,5 @@ import instagramNonfollowersTrackerImage from '@/assets/instagram-nonfollowers-p
         <font-awesome-icon :icon="['fas', 'arrow-right']" />
       </a>
     </div>
-  </div>
+  </section>
 </template>
