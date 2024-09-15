@@ -24,5 +24,15 @@ import { HoverCard } from '@/components/templates';
       Monitored the company's IoT devices across 6 regions in Brazil, executed 10+ code modifications for tasks like storage optimization and error checks,
       and performed initial debugging on 5+ software issues, improving functionality and user experience.
     </HoverCard>
+    <div class="flex">
+      <a
+        href="https://raw.githubusercontent.com/rulkimi/kimi-portfolio/main/kimi_resume.pdf"
+        download="kimi_resume.pdf"
+        class="flex items-center gap-2 hover:gap-4 transition-all duration-300"
+      >
+        <span>View Full Resume</span>
+        <font-awesome-icon :icon="['fas', 'arrow-right']" />
+      </a>
+    </div>
   </div>
 </template>
