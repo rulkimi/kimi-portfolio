@@ -5,14 +5,14 @@ import { HoverCard } from '@/components/templates';
 <template>
   <section id="experience" class="flex flex-col gap-4">
     <HoverCard
-      date="SEP 2024 &ndash; PRESENT"
+      date="SEP 2023 &ndash; PRESENT"
       title="Software Engineer"
       company="Mesiniaga Digital Sdn. Bhd."
       link="https://mesiniaga.com.my/"
       :tags="['Vue.js', 'Vite', 'Figma', 'Tailwind CSS', 'Vue Tauri', 'GenAI', 'FastAPI', 'Axios', 'Pinia']"
     >
-      Refined and built Mesiniaga’s first AI-integrated website, incorporating chatbots, translators, and analysis tools,
-      while designing the UI and API integration for admin pages to manage users, prompt templates, and message logs with a simple CRUD flow.
+      Designed and developed Mesiniaga’s first AI-powered internal website, featuring chatbots, translators, and analysis tools.
+      The platform includes user and admin pages for efficient management.
     </HoverCard>
     <HoverCard
       date="MAY 2022 &ndash; APR 2023"
@@ -21,8 +21,8 @@ import { HoverCard } from '@/components/templates';
       link="https://www.linkedin.com/company/knex-inc./about/"
       :tags="['Dataplicity', 'Ubuntu']"
     >
-      Monitored the company's IoT devices across 6 regions in Brazil, executed 10+ code modifications for tasks like storage optimization and error checks,
-      and performed initial debugging on 5+ software issues, improving functionality and user experience.
+      Monitored the company's IoT devices across 6 regions in Brazil, executed code modifications for tasks like storage optimization and error checks,
+      and performed initial debugging on software issues, improving functionality and user experience.
     </HoverCard>
     <div class="flex">
       <a
