@@ -18,3 +18,9 @@
     <p>When I’m not coding, you can usually find me hiking, reading, or exploring new technologies to expand my skills even further.</p>
   </section>
 </template>
+
+<style scoped>
+a, strong {
+  @apply text-slate-200 hover:text-teal-300;
+}
+</style>

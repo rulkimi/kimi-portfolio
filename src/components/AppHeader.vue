@@ -58,11 +58,12 @@ const scrollToPage = (navId) => {
           <div class="leading-normal max-w-xs">I build pixel-perfect, engaging, and accessible digital experiences.</div>
         </div>
         <div class="hidden md:flex flex-col gap-4">
-          <div
+          <a
+            :href="`#${navigation.id}`"
             v-for="navigation in navigations"
             :key="navigation.id"
             class="flex items-center gap-4 font-medium group cursor-pointer"
-            @click="scrollToPage(navigation.id)"
+            @click.prevent="scrollToPage(navigation.id)"
           >
             <div
               class="h-px w-8 bg-slate-500 group-hover:w-16 group-hover:bg-slate-200 transition-all duration-200"
@@ -74,7 +75,7 @@ const scrollToPage = (navId) => {
             >
               {{ navigation.name }}
             </span>
-          </div>
+          </a>
         </div>
       </div>
       <div class="flex gap-6 text-2xl">

@@ -6,3 +6,9 @@
     deployed with <a href="https://pages.github.com/" target="_blank">Github Pages</a>. 
   </footer>
 </template>
+
+<style scoped>
+a, strong {
+  @apply text-slate-200 hover:text-teal-300;
+}
+</style>

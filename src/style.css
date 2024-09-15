@@ -16,6 +16,6 @@
   }
 
   a, strong {
-    @apply cursor-pointer font-medium text-slate-200 hover:text-teal-300 transition-all duration-300;
+    @apply cursor-pointer font-medium transition-all duration-300;
   }
 }
