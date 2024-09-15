@@ -18,11 +18,11 @@ import { GlowingBackground } from '@/components/templates';
 <style scoped>
 .custom-scroll::-webkit-scrollbar {
   width: 6px;
-  background-color: #1f2937;
+  background-color: #0f172a;
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
-  background-color: #4b5563;
+  background-color: #4d5c7184;
   border-radius: 4px;
 }
 
