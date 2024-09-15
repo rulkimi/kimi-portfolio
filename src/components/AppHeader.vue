@@ -1,17 +1,49 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 
-const activeNav = ref('ABOUT');
+const activeNav = ref('about');
+const sections = ref([]);
+
+onMounted(() => {
+  sections.value = Array.from(document.querySelectorAll('section'));
+
+  // Intersection Observer callback
+  const observerCallback = (entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        activeNav.value = entry.target.id;
+      }
+    });
+  };
+
+  // Create an Intersection Observer instance
+  const observer = new IntersectionObserver(observerCallback, {
+    root: null, // Use the viewport as the root
+    threshold: 0.5 // Trigger when 50% of the section is visible
+  });
+
+  // Observe each section
+  sections.value.forEach(section => observer.observe(section));
+
+  // Cleanup observer on unmount
+  onUnmounted(() => {
+    sections.value.forEach(section => observer.unobserve(section));
+  });
+});
 
 const navigations = ref([
-  { name: 'ABOUT' },
-  { name: 'EXPERIENCE' },
-  { name: 'PROJECTS' },
+  { id: 'about', name: 'ABOUT' },
+  { id: 'experience', name: 'EXPERIENCE' },
+  { id: 'projects', name: 'PROJECTS' },
 ]);
 
-const setActiveNav = nav => {
-  activeNav.value = nav;
-}
+const scrollToPage = (navId) => {
+  activeNav.value = navId;
+  const element = sections.value.find(section => section.id === navId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
 </script>
 
@@ -27,17 +59,17 @@ const setActiveNav = nav => {
         <div class="flex flex-col gap-4">
           <div
             v-for="navigation in navigations"
-            :key="navigation.name"
+            :key="navigation.id"
             class="flex items-center gap-4 font-medium group cursor-pointer"
-            @click="setActiveNav(navigation.name)"
+            @click="scrollToPage(navigation.id)"
           >
             <div
               class="h-px w-8 bg-slate-500 group-hover:w-16 group-hover:bg-slate-200 transition-all duration-200"
-              :class="{ '!w-16 !bg-slate-200' : activeNav === navigation.name }"
+              :class="{ '!w-16 !bg-slate-200' : activeNav === navigation.id }"
             ></div>
             <span
               class="text-xs group-hover:text-slate-200"
-              :class="{ 'text-slate-200' : activeNav === navigation.name }"
+              :class="{ 'text-slate-200' : activeNav === navigation.id }"
             >
               {{ navigation.name }}
             </span>
