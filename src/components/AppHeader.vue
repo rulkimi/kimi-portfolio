@@ -60,7 +60,7 @@ const scrollToPage = (navId) => {
             while striving to create engaging and accessible digital experiences.
           </div>
         </div>
-        <div class="hidden md:flex flex-col gap-4">
+        <div class="hidden lg:flex flex-col gap-4">
           <a
             :href="`#${navigation.id}`"
             v-for="navigation in navigations"
