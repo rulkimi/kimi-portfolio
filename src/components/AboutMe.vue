@@ -1,21 +1,27 @@
 <template>
   <section id="about" class="scroll-mt-24">
     <p>
-      My journey began in Mechanical Engineering, but I quickly found my passion in coding.
-      The immediate results from working with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> drew me in,
-      as it felt like an extension of my problem-solving mindset.
-      From there, I dove deeper into web development, excited by the combination of design and logic.
+      Even though I graduated with a Mechanical Engineering degree,
+      I've always had a deep interest in programming since my foundation studies.
+      After graduating, I realized my true passion was coding, so I did some research and got into web development.
+      Working with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> instantly clicked for me — it
+      felt like the perfect mix of design and logic that really spoke to my problem-solving mindset.
     </p>
  
     <p>
-      Over the last year, I’ve built <a href="https://rulkimi.github.io/kiminotes/" target="_blank" rel="noopener noreferrer">kiminotes</a>,
-      a personal knowledge repository documenting my learning journey.
-      Alongside that, I developed various projects, including a <a href="https://rulkimi.github.io/recipe-generator/" target="_blank" rel="noopener noreferrer">recipe generation app
-      </a> using <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue.js</a> and <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>. I always prioritize clean,
-      accessible designs, aiming to create seamless user experiences through both front-end UI and back-end logic.
+      Over the past year, I built <a href="https://rulkimi.github.io/kiminotes/" target="_blank" rel="noopener noreferrer">kiminotes</a>,
+      a personal knowledge base to track everything I’ve been learning. I’ve also worked on a few projects,
+      including a <a href="https://rulkimi.github.io/recipe-generator/" target="_blank" rel="noopener noreferrer">recipe generator app</a>
+      using <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue.js</a> and
+      <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>,
+      where the recipes are generated using AI through the <a href="https://ai.google.dev/" target="_blank" rel="noopener noreferrer">Gemini AI</a>. I always focus on clean,
+      accessible designs and try to make everything as user-friendly as possible, both on the front and back end.
     </p> 
 
-    <p>When I’m not coding, you can usually find me hiking, reading, or exploring new technologies to expand my skills even further.</p>
+    <p>
+      When I’m not coding, I’m probably gaming, singing, or learning a new language.
+      I’m always checking out new way to level up my skills.
+    </p>
   </section>
 </template>
 
