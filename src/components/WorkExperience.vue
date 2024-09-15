@@ -4,7 +4,7 @@ import { HoverCard } from '@/components/templates';
 
 <template>
   <section id="experience">
-    <div class="sticky top-0 p-4 -mx-4 mb-4 z-20 text-sm font-bold tracking-widest text-slate-200 lg:sr-only">
+    <div class="sticky top-0 p-4 -mx-4 z-20 text-sm font-bold tracking-widest text-slate-200 lg:sr-only">
       EXPERIENCE
     </div>
     <div class="flex flex-col gap-4">

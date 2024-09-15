@@ -9,7 +9,7 @@ import instagramNonfollowersTrackerImage from '@/assets/instagram-nonfollowers-p
 
 <template>
   <section id="projects">
-    <div class="sticky top-0 p-4 -mx-4 mb-4 z-20 text-sm font-bold tracking-widest text-slate-200 lg:sr-only">
+    <div class="sticky top-0 p-4 -mx-4 z-20 text-sm font-bold tracking-widest text-slate-200 lg:sr-only">
       PROJECTS
     </div>
     <div class="flex flex-col gap-4">
