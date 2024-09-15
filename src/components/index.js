@@ -1,11 +1,13 @@
 import AboutMe from './AboutMe.vue';
 import MyProjects from './MyProjects.vue';
 import WorkExperience from './WorkExperience.vue';
-import NavBar from './NavBar.vue';
+import AppHeader from './AppHeader.vue';
+import AppFooter from './AppFooter.vue';
 
 export {
   AboutMe,
   MyProjects,
   WorkExperience,
-  NavBar,
+  AppHeader,
+  AppFooter,
 }

@@ -16,7 +16,7 @@ const setActiveNav = nav => {
 </script>
 
 <template>
-  <div class="py-24 sticky top-0">
+  <header class="py-24 sticky top-0">
     <div class="h-full flex flex-col justify-between">
       <div class="flex flex-col gap-20">
         <div class="flex flex-col gap-2">
@@ -56,5 +56,5 @@ const setActiveNav = nav => {
         </a>
       </div>
     </div>
-  </div>
+  </header>
 </template>
