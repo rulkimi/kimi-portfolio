@@ -35,7 +35,7 @@ const goToLink = link => {
     <div class="grid grid-cols-12">
       
       <div v-if="date" class="col-span-3 text-xs font-medium text-nowrap my-1">{{ date }}</div>
-      <img v-else class="col-span-3 rounded" :src="imagePath" width="100" :alt="imageAlt">
+      <img v-else class="col-span-3 rounded" :src="imagePath" width="115" :alt="imageAlt">
 
       <div class="col-span-9">
         <div class="text-slate-200 group-hover:text-teal-300 mb-2 flex items-center gap-2 group-hover:gap-4 transition-all duration-300">
