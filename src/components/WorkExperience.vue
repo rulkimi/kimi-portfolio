@@ -28,7 +28,7 @@ import { HoverCard } from '@/components/templates';
       <a
         href="https://github.com/rulkimi/kimi-portfolio/blob/main/kimi_resume.pdf"
         target="_blank"
-        class="flex items-center gap-2 hover:gap-4 transition-all duration-300"
+        class="flex items-center gap-2 hover:gap-4 text-slate-200 hover:text-teal-300 transition-all duration-300"
       >
         <span>View Full Resume</span>
         <font-awesome-icon :icon="['fas', 'arrow-right']" />
