@@ -19,7 +19,8 @@ onMounted(() => {
   // Create an Intersection Observer instance
   const observer = new IntersectionObserver(observerCallback, {
     root: null, // Use the viewport as the root
-    threshold: 0.5 // Trigger when 50% of the section is visible
+    threshold: 0.5, // Trigger when 50% of the section is visible
+    rootMargin: '0px 0px -30% 0px' // this fixes if content is too short like in experience
   });
 
   // Observe each section
