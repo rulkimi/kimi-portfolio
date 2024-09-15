@@ -54,6 +54,7 @@ import instagramNonfollowersTrackerImage from '@/assets/instagram-nonfollowers-p
       <a
         href="https://github.com/rulkimi/"
         target="_blank"
+        rel="noopener noreferrer"
         class="flex items-center gap-2 hover:gap-4 text-slate-200 hover:text-teal-300 transition-all duration-300"
       >
         <span>View On Github</span>
