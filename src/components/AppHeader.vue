@@ -55,7 +55,10 @@ const scrollToPage = (navId) => {
         <div class="flex flex-col gap-2">
           <h1 class="text-4xl sm:text-5xl font-bold text-slate-200">Azrul Hakimi</h1>
           <h2 class="text-lg sm:text-xl font-medium text-slate-200">Junior Front-end Developer</h2>
-          <div class="leading-normal max-w-xs">I build pixel-perfect, engaging, and accessible digital experiences.</div>
+          <div class="leading-normal max-w-xs">
+            I’m eager to learn, discuss improvements, and connect with others,
+            while striving to create engaging and accessible digital experiences.
+          </div>
         </div>
         <div class="hidden md:flex flex-col gap-4">
           <a
