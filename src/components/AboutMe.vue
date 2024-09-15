@@ -1,5 +1,8 @@
 <template>
-  <section id="about" class="scroll-mt-24">
+  <section id="about" class="scroll-mt-24 relative">
+    <div class="sticky top-0 p-4 -mx-4 mb-4 z-20 text-sm font-bold tracking-widest text-slate-200 lg:sr-only">
+      ABOUT
+    </div>
     <p>
       Even though I graduated with a Mechanical Engineering degree,
       I've always had a deep interest in programming since my foundation studies.
