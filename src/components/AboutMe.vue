@@ -13,7 +13,7 @@
  
     <p>
       Over the past year, I built <a href="https://rulkimi.github.io/kiminotes/" target="_blank" rel="noopener noreferrer">kiminotes</a>,
-      a personal knowledge base to track everything I’ve been learning. I’ve also worked on a few projects,
+      a personal knowledge repository to track everything I’ve learnt. I’ve also worked on a few projects,
       including a <a href="https://rulkimi.github.io/recipe-generator/" target="_blank" rel="noopener noreferrer">recipe generator app</a>
       using <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue.js</a> and
       <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>,
