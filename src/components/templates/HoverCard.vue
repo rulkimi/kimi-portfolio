@@ -12,7 +12,7 @@ defineProps({
   },
   company: {
     type: String,
-    required: true
+    required: false
   },
   tags: {
     type: Array,
@@ -38,11 +38,16 @@ const goToLink = link => {
       <img v-else class="col-span-3 rounded" :src="imagePath" width="115" :alt="imageAlt">
 
       <div class="col-span-9">
-        <div class="text-slate-200 group-hover:text-teal-300 mb-2 flex items-center gap-2 group-hover:gap-4 transition-all duration-300">
-          <span>{{ title }} • {{ company }}</span>
-          <font-awesome-icon :icon="['fas', 'arrow-right']" />
+        <div class="text-slate-200 group-hover:text-teal-300 mb-2">
+          <span v-if="company">{{ title }} • {{ company }}</span>
+          <span v-else>{{ title }}</span>
+          <span class="ml-2 group-hover:ml-4 transition-all duration-300">
+            <font-awesome-icon :icon="['fas', 'arrow-right']" />
+          </span>
         </div>
-        <slot></slot>
+        <div class="text-sm">
+          <slot></slot>
+        </div>
         <div class="flex gap-1 mt-4">
           <div
             v-for="tag in tags"

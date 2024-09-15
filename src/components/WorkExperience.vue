@@ -34,6 +34,5 @@ import { HoverCard } from '@/components/templates';
         <font-awesome-icon :icon="['fas', 'arrow-right']" />
       </a>
     </div>
-
   </div>
 </template>
