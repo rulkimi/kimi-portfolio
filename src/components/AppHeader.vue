@@ -49,15 +49,15 @@ const scrollToPage = (navId) => {
 </script>
 
 <template>
-  <header class="py-24 sticky top-0">
-    <div class="h-full flex flex-col justify-between">
+  <header class="py-12 md:py-24">
+    <div class="h-full flex flex-col gap-4 justify-between">
       <div class="flex flex-col gap-20">
         <div class="flex flex-col gap-2">
           <h1 class="text-4xl sm:text-5xl font-bold text-slate-200">Azrul Hakimi</h1>
           <h2 class="text-lg sm:text-xl font-medium text-slate-200">Junior Front-end Developer</h2>
           <div class="leading-normal max-w-xs">I build pixel-perfect, engaging, and accessible digital experiences.</div>
         </div>
-        <div class="flex flex-col gap-4">
+        <div class="hidden md:flex flex-col gap-4">
           <div
             v-for="navigation in navigations"
             :key="navigation.id"

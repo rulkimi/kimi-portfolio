@@ -5,9 +5,9 @@ import { GlowingBackground } from '@/components/templates';
 
 <template>
   <GlowingBackground color="#0984FF">
-    <div class="max-w-[1280px] mx-auto h-screen flex gap-4 px-24 overflow-auto custom-scroll">
-      <AppHeader class="w-1/2"/>
-      <div class="w-1/2 flex flex-col gap-24 py-24">
+    <div class="max-w-[1280px] mx-auto h-screen flex flex-col md:flex-row gap-4 px-6 md:px-24 overflow-auto custom-scroll">
+      <AppHeader class="md:w-1/2 md:sticky md:top-0"/>
+      <div class="md:w-1/2 flex flex-col gap-24 py-12 md:py-24">
         <slot></slot>
         <AppFooter />
       </div>
