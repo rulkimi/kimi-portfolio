@@ -38,7 +38,7 @@ import instagramNonfollowersTrackerImage from '@/assets/instagram-nonfollowers-p
         image-alt="bus location tracker image preview"
         title="Bus Location Tracker"
         link="https://rulkimi.github.io/bus-location-server/"
-        :tags="['Vue.Js', 'GTFS', 'FastAPI', 'Render']"
+        :tags="['Vue.Js', 'GTFS-R', 'FastAPI', 'Render']"
       >
         A real-time bus tracking API that monitors live bus locations around KL and Selangor.
         It pulls in accurate, up-to-date data by connecting with the GTFS API.
