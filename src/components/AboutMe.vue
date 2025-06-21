@@ -4,26 +4,22 @@
       ABOUT
     </div>
     <p>
-      Even though I graduated with a Mechanical Engineering degree,
-      I've always had a deep interest in programming since my foundation studies.
-      After graduating, I realized my true passion was coding, so I did some research and got into web development.
-      Working with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> instantly clicked for me — it
-      felt like the perfect mix of design and logic that really spoke to my problem-solving mindset.
+      I graduated in Mechanical Engineering, but my real passion's always been coding. After uni, I pivoted to web dev and quickly clicked with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> — the perfect blend of design and logic for my problem-solving brain.
     </p>
- 
-    <p>
-      Over the past year, I built <a href="https://rulkimi.github.io/kiminotes/" target="_blank" rel="noopener noreferrer">kiminotes</a>,
-      a personal knowledge repository to track everything I’ve learnt. I’ve also worked on a few projects,
-      including a <a href="https://rulkimi.github.io/recipe-generator/" target="_blank" rel="noopener noreferrer">recipe generator app</a>
-      using <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue.js</a> and
-      <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>,
-      where the recipes are generated using AI through the <a href="https://ai.google.dev/" target="_blank" rel="noopener noreferrer">Gemini AI</a>. I always focus on clean,
-      accessible designs and try to make everything as user-friendly as possible, both on the front and back end.
-    </p> 
 
     <p>
-      When I’m not coding, I’m probably gaming, singing, or learning a new language.
-      I’m always checking out new way to level up my skills.
+      I’ve built several projects, like a 
+      <a href="https://rulkimi.github.io/recipe-generator/" target="_blank" rel="noopener noreferrer">recipe generator</a> powered by 
+      <a href="https://ai.google.dev/" target="_blank" rel="noopener noreferrer">Gemini AI</a> and 
+      <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>, a 
+      <a href="https://pokedex.rulkimi.com/" target="_blank" rel="noopener noreferrer">Pokédex app</a> with 
+      <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Next.js</a>, and a 
+      <a href="https://rulkimi.github.io/bus-location-server/" target="_blank" rel="noopener noreferrer">bus tracker</a> that fetches live GTFS data.
+      I focus on clean, accessible, and user-first design — front and back.
+    </p>
+
+    <p>
+      When I’m not coding, I’m gaming, singing, or picking up new languages — always leveling up.
     </p>
   </section>
 </template>

@@ -54,7 +54,7 @@ const scrollToPage = (navId) => {
       <div class="flex flex-col gap-20">
         <div class="flex flex-col gap-2">
           <h1 class="text-4xl sm:text-5xl font-bold text-slate-200">Azrul Hakimi</h1>
-          <h2 class="text-lg sm:text-xl font-medium text-slate-200">Junior Front-end Developer</h2>
+          <h2 class="text-lg sm:text-xl font-medium text-slate-200">Front-end Developer</h2>
           <div class="leading-normal max-w-xs">
             I’m eager to learn, discuss improvements, and connect with others,
             while striving to create engaging and accessible digital experiences.
@@ -90,6 +90,9 @@ const scrollToPage = (navId) => {
         </a>
         <a class="hover:scale-110" href="mailto:azrulkimi00@gmail.com" rel="noopener noreferrer">
           <font-awesome-icon :icon="['fas', 'envelope']" />
+        </a>
+        <a class="hover:scale-110" href="https://instagram.com/kimidoestuff" rel="noopener noreferrer">
+          <font-awesome-icon :icon="['fab', 'instagram']" />
         </a>
       </div>
     </div>

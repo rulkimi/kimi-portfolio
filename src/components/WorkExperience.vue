@@ -9,7 +9,16 @@ import { HoverCard } from '@/components/templates';
     </div>
     <div class="flex flex-col gap-4">
       <HoverCard
-        date="SEP 2023 &ndash; PRESENT"
+        date="MAR 2025 &ndash; PRESENT"
+        title="Software Developer"
+        company="QBEEP INTELLIGENT SYSTEMS"
+        link="https://qbeep.com.my/"
+        :tags="['Next.js', 'Zustand', 'Shadcn']"
+      >
+        Developed two CMS platforms: an internal dashboard for managing health products, users, and system settings; and a merchant-facing portal for uploading and managing food surplus items.
+      </HoverCard>
+      <HoverCard
+        date="SEP 2023 &ndash; MAR 2025"
         title="Software Engineer"
         company="Mesiniaga Digital Sdn. Bhd."
         link="https://mesiniaga.com.my/"

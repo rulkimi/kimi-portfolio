@@ -13,7 +13,7 @@ const projects = [
     imageAlt: "recipe generator image preview",
     title: "Recipe Generator",
     link: "https://rulkimi.github.io/recipe-generator/",
-    tags: ['Shadcn-Vue', 'Gemini AI', 'FastAPI', 'Render'],
+    tags: ['Shadcn-Vue', 'Gemini AI', 'FastAPI', 'Railway'],
     description: "A recipe generator web app that uses AI to create recipes. It includes search options by dish name, ingredients, or images, and a feature to save favorite recipes. The app also has APIs developed and documented for search and recipe generation, allowing for customization based on dietary needs and preferences."
   },
   {
@@ -21,33 +21,33 @@ const projects = [
     imageAlt: "bus location tracker image preview",
     title: "Bus Location Tracker",
     link: "https://rulkimi.github.io/bus-location-server/",
-    tags: ['Vue.Js', 'GTFS-R', 'FastAPI', 'Render'],
+    tags: ['Vue.Js', 'GTFS-R', 'FastAPI', 'Railway'],
     description: "A real-time bus tracking API that monitors live bus locations around KL and Selangor. It pulls in accurate, up-to-date data by connecting with the GTFS API."
   },
-  {
-    imagePath: kiminotesImage,
-    imageAlt: "azrul hakimi's personal documentation website, kiminotes, preview",
-    title: "kiminotes",
-    link: "https://rulkimi.github.io/kiminotes/",
-    tags: ['Vue.Js', 'Vite', 'Tailwind CSS'],
-    description: "A personal coding notes website with some challenges faced during website development and interactive examples for quick reference and hands-on practice. It’s packed with best practices from a year in the industry to ensure high-quality code and smooth site functionality for effective learning and review."
-  },
+  // {
+  //   imagePath: kiminotesImage,
+  //   imageAlt: "azrul hakimi's personal documentation website, kiminotes, preview",
+  //   title: "kiminotes",
+  //   link: "https://rulkimi.github.io/kiminotes/",
+  //   tags: ['Vue.Js', 'Vite', 'Tailwind CSS'],
+  //   description: "A personal coding notes website with some challenges faced during website development and interactive examples for quick reference and hands-on practice. It’s packed with best practices from a year in the industry to ensure high-quality code and smooth site functionality for effective learning and review."
+  // },
   {
     imagePath: pokedexImage,
     imageAlt: "azrul hakimi's pokedex website",
     title: "Pokédex",
-    link: "https://rulkimi.github.io/pokedex/",
-    tags: ['NuxtJs', 'NuxtUI', 'Tailwind CSS'],
+    link: "https://pokedex.rulkimi.com/",
+    tags: ['Next.js', 'Shadcn', 'Vercel'],
     description: "An interactive Pokedex website that allows users to search for Pokémon, view their details, and explore various features. It showcases a user-friendly interface built with NuxtJs and Tailwind CSS, providing a seamless experience for Pokémon enthusiasts."
   },
-  // {
-  //   imagePath: instagramNonfollowersTrackerImage,
-  //   imageAlt: "instagram non followers tracker website image preview",
-  //   title: "Instragram Non-Followers Tracker",
-  //   link: "https://rulkimi.github.io/insta-nonfollowers/",
-  //   tags: ['HTML', 'JavaScript', 'Bootstrap'],
-  //   description: "A web app that identifies Instagram non-followers by processing JSON files from Instagram data exports. It includes features for generating and downloading detailed HTML reports and provides a step-by-step guide to help users with data processing, making the app easy to use and navigate."
-  // }
+  {
+    imagePath: instagramNonfollowersTrackerImage,
+    imageAlt: "instagram non followers tracker website image preview",
+    title: "Instragram Non-Followers Tracker",
+    link: "https://rulkimi.github.io/insta-nonfollowers/",
+    tags: ['HTML', 'JavaScript', 'TailwindCSS'],
+    description: "A web app that identifies Instagram non-followers by processing JSON files from Instagram data exports. It includes features for generating and downloading detailed HTML reports and provides a step-by-step guide to help users with data processing, making the app easy to use and navigate."
+  }
 ];
 </script>
 
