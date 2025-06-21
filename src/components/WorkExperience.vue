@@ -11,7 +11,7 @@ import { HoverCard } from '@/components/templates';
       <HoverCard
         date="MAR 2025 &ndash; PRESENT"
         title="Software Developer"
-        company="QBEEP INTELLIGENT SYSTEMS"
+        company="QBeep Intelligent Systems"
         link="https://qbeep.com.my/"
         :tags="['Next.js', 'Zustand', 'Shadcn']"
       >
