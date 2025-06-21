@@ -38,7 +38,7 @@ const projects = [
     title: "Pokédex",
     link: "https://pokedex.rulkimi.com/",
     tags: ['Next.js', 'Shadcn', 'Vercel'],
-    description: "An interactive Pokedex website that allows users to search for Pokémon, view their details, and explore various features. It showcases a user-friendly interface built with NuxtJs and Tailwind CSS, providing a seamless experience for Pokémon enthusiasts."
+    description: "An interactive Pokedex website that allows users to search for Pokémon, view their details, and explore various features. It showcases a user-friendly interface built with Next.js and Tailwind CSS, providing a seamless experience for Pokémon enthusiasts."
   },
   {
     imagePath: instagramNonfollowersTrackerImage,
