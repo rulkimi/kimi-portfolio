@@ -12,7 +12,7 @@ const projects = [
     imagePath: recipeGeneratorImage,
     imageAlt: "recipe generator image preview",
     title: "Recipe Generator",
-    link: "https://rulkimi.github.io/recipe-generator/",
+    link: "https://recipe-generator.rulkimi.com/recipes/search",
     tags: ['Shadcn-Vue', 'Gemini AI', 'FastAPI', 'Railway'],
     description: "A recipe generator web app that uses AI to create recipes. It includes search options by dish name, ingredients, or images, and a feature to save favorite recipes. The app also has APIs developed and documented for search and recipe generation, allowing for customization based on dietary needs and preferences."
   },
